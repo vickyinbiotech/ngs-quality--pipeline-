@@ -1,0 +1,4 @@
+sample condition replicate file
+SAMPLE_001 control 1 data/raw/SAMPLE_001.fastq.gz
+SAMPLE_002 control 2 data/raw/SAMPLE_002.fastq.gz
+SAMPLE_003 treated 1 data/raw/SAMPLE_003.fastq.gz
