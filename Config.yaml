@@ -1,0 +1,21 @@
+# ============================================
+# Pipeline Configuration
+# Author: Victoria Djana
+# ============================================
+
+# Sample list
+samples:
+- SAMPLE_001
+- SAMPLE_002
+- SAMPLE_003
+
+# Reference paths
+adapters: "data/adapters/TruSeq3-SE.fa"
+
+# Trimming parameters
+min_length: 36
+min_quality: 20
+
+# Output directories
+fastqc_dir: "results/fastqc"
+trimmed_dir: "results/trimmed"
